@@ -1,13 +1,12 @@
-﻿body {
+body {
     color: black;
-    font: 25px Arial;
+    font: 20px Arial;
  
 }
 P {
     padding: 5px;
     margin: 0 auto;
     text-align: center;
-    word-break: break-all;
     word-wrap: break-word;
 }
 
