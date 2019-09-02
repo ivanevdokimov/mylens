@@ -1,0 +1,73 @@
+﻿body {
+    color: black;
+    font: 25px Arial;
+ 
+}
+P {
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+
+.logoImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.imgsnap {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.lens {
+    padding: 40px 0;
+}
+
+.lens-items {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(auto-fill,300px);
+    max-width: 1200px;
+    margin: 8px auto 0;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 20px;
+}
+
+.buttonDel {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: red; /* Green */
+    border: none;
+    color: black;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
